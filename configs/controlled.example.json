@@ -1,0 +1,23 @@
+{
+  "backend": "controlled-http",
+  "embedding": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "device": "cpu"
+  },
+  "perception": {
+    "model": "deepseek-ai/DeepSeek-OCR",
+    "url": "http://127.0.0.1:8000/v1/chat/completions",
+    "tokenizer_model": "deepseek-ai/DeepSeek-OCR"
+  },
+  "answer": {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "url": "http://127.0.0.1:8001/v1/chat/completions"
+  },
+  "memory": {
+    "canonical_threshold": 0.65,
+    "day_top_n": 20,
+    "page_width": 1400,
+    "video_max_frames": 8,
+    "max_page_pixels": 80000000
+  }
+}

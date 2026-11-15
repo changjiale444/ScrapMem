@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the accepted ScrapMem manuscript; ACM DOI metadata is pending."
+type: software
+title: "ScrapMem: A Bio-Inspired Framework for On-Device Personalized Agent Memory via Optical Forgetting"
+version: 0.2.0
+authors:
+  - family-names: Chang
+    given-names: Jiale
+  - family-names: Ren
+    given-names: Yuxiang

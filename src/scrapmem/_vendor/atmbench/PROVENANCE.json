@@ -1,0 +1,10 @@
+{
+  "project": "ATM-Bench",
+  "project_url": "https://atmbench.github.io/",
+  "original_source_sha256": {
+    "normalizer.py": "1980cce4fbd572d11d2317725cb955d99cf55cf20e8645cd4ba6908fbdcf0e3d",
+    "qtype_utils.py": "9186fe0f409b99384a0d78c988d1dbdfd66a74546f254ce1f1ed46e3cc115518",
+    "evaluate_qa.py": "794acdb90b535214ebd28fdc2488476075e92329b381314c5d6bc8fd81e56bb0",
+    "evaluator_constants.py": "7c1895e2de419f82368b9525017d9679a7bb71e3d343c1eee252c18401b55d7a"
+  }
+}
